@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# 自定义配置
+media/
+static_dist/
+whoosh_index/
+front/node_modules/
+front/src/
+front_gulpfile.js
