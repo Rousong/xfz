@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'q5m0_gi+adi@9j^qf2*sb$iw+t29r3&(&wt5)9m1+ejaie58re'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['xfz.mysteryblind.cn']
+ALLOWED_HOSTS = ['xfz.mysteryblind.cn', '*']
 
 
 # Application definition
@@ -163,7 +163,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 QINIU_ACCESS_KEY = 'smn6hhYWpo7El6X8PljCQSnaZ5Mqp04RyXthMzl9'
 QINIU_SECRET_KEY = 'hdolQaTfIkWaT4jWuFI4pnc8_wAJ2ER-MIuOnfEo'
 QINIU_BUCKET_NAME = 'xfzvir'
-QINIU_DOMAIN = 'pimlatbwn.bkt.clouddn.com'
+QINIU_DOMAIN = 'image.mysteryblind.cn'
 
 # UEditor配置文件路径
 UEDITOR_CONFIG_PATH = os.path.join(BASE_DIR, 'front', 'dist', 'ueditor', 'config.json')

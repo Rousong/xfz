@@ -71,7 +71,7 @@ def img_captcha(request):
     response.write(out.read())
     cache.set(text.lower(), text.lower(), 300)
     # 测试时打印图形验证码使用
-    print(f'图形验证码：{text.lower()}')
+    #print(f'图形验证码：{text.lower()}')
     return response
 
 
@@ -82,5 +82,5 @@ def sms_captcha(request):
     aliyunsms.send_sms(telephone, code)
     cache.set(telephone, code.lower(), 300)
     # 测试时打印短信验证码使用
-    print(f'短信验证码：{code.lower()}')
+    #print(f'短信验证码：{code.lower()}')
     return restful.ok()

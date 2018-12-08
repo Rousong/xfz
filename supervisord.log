@@ -1,0 +1,930 @@
+2018-12-07 22:34:21,767 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-07 22:34:21,774 INFO RPC interface 'supervisor' initialized
+2018-12-07 22:34:21,775 INFO daemonizing the supervisord process
+2018-12-07 22:34:21,776 INFO supervisord started with pid 2801
+2018-12-07 22:34:22,777 INFO spawned: 'xfz' with pid 2802
+2018-12-07 22:34:22,782 DEBG 'xfz' stderr output:
+[uWSGI] getting INI configuration from uwsgi.ini
+
+2018-12-07 22:34:22,782 INFO success: xfz entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-12-07 22:34:22,782 DEBG 'xfz' stderr output:
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec  7 22:34:22 2018] ***
+
+2018-12-07 22:34:22,782 DEBG 'xfz' stderr output:
+compiled with version: 5.4.0 20160609 on 07 December 2018 09:29:52
+
+2018-12-07 22:34:22,782 DEBG 'xfz' stderr output:
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+nodename: ubuntu
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+machine: x86_64
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+clock source: unix
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+detected number of CPU cores: 1
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+current working directory: /srv/xfz
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+detected binary path: /usr/local/bin/uwsgi
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+!!! no internal routing support, rebuild with pcre support !!!
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+chdir() to /srv/xfz
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+your processes number limit is 7856
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+your memory page size is 4096 bytes
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+detected max file descriptor number: 65535
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+lock engine: pthread robust mutexes
+
+2018-12-07 22:34:22,783 DEBG 'xfz' stderr output:
+thunder lock: disabled (you can enable it with --thunder-lock)
+
+2018-12-07 22:34:22,784 DEBG 'xfz' stderr output:
+uwsgi socket 0 bound to UNIX address /srv/xfz/xfz.sock fd 3
+
+2018-12-07 22:34:22,784 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-07 22:34:22,784 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-07 22:34:22,784 DEBG 'xfz' stderr output:
+Python version: 3.6.7 (default, Oct 25 2018, 09:16:13)  [GCC 5.4.0 20160609]
+
+2018-12-07 22:34:22,784 DEBG 'xfz' stderr output:
+Set PythonHome to /root/.virtualenvs/xfzvir
+
+2018-12-07 22:34:22,798 DEBG 'xfz' stderr output:
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+
+2018-12-07 22:34:22,799 DEBG 'xfz' stderr output:
+Python main interpreter initialized at 0x25f2810
+
+2018-12-07 22:34:22,799 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-07 22:34:22,799 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-07 22:34:22,799 DEBG 'xfz' stderr output:
+your server socket listen backlog is limited to 100 connections
+
+2018-12-07 22:34:22,799 DEBG 'xfz' stderr output:
+your mercy for graceful operations on workers is 60 seconds
+
+2018-12-07 22:34:22,800 DEBG 'xfz' stderr output:
+mapped 801944 bytes (783 KB) for 10 cores
+
+2018-12-07 22:34:22,800 DEBG 'xfz' stderr output:
+*** Operational MODE: preforking ***
+
+2018-12-07 22:34:23,290 DEBG 'xfz' stderr output:
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25f2810 pid: 2802 (default app)
+
+2018-12-07 22:34:23,290 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-07 22:34:23,290 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-07 22:34:23,290 DEBG 'xfz' stderr output:
+*** uWSGI is running in multiple interpreter mode ***
+
+2018-12-07 22:34:23,290 DEBG 'xfz' stderr output:
+spawned uWSGI master process (pid: 2802)
+
+2018-12-07 22:34:23,291 DEBG 'xfz' stderr output:
+spawned uWSGI worker 1 (pid: 2804, cores: 1)
+
+2018-12-07 22:34:23,292 DEBG 'xfz' stderr output:
+spawned uWSGI worker 2 (pid: 2805, cores: 1)
+
+2018-12-07 22:34:23,292 DEBG 'xfz' stderr output:
+spawned uWSGI worker 3 (pid: 2806, cores: 1)
+
+2018-12-07 22:34:23,293 DEBG 'xfz' stderr output:
+spawned uWSGI worker 4 (pid: 2807, cores: 1)
+
+2018-12-07 22:34:23,293 DEBG 'xfz' stderr output:
+spawned uWSGI worker 5 (pid: 2808, cores: 1)
+
+2018-12-07 22:34:23,294 DEBG 'xfz' stderr output:
+spawned uWSGI worker 6 (pid: 2809, cores: 1)
+
+2018-12-07 22:34:23,296 DEBG 'xfz' stderr output:
+spawned uWSGI worker 7 (pid: 2810, cores: 1)
+
+2018-12-07 22:34:23,298 DEBG 'xfz' stderr output:
+spawned uWSGI worker 8 (pid: 2811, cores: 1)
+
+2018-12-07 22:34:23,300 DEBG 'xfz' stderr output:
+spawned uWSGI worker 9 (pid: 2812, cores: 1)
+
+2018-12-07 22:34:23,301 DEBG 'xfz' stderr output:
+spawned uWSGI worker 10 (pid: 2813, cores: 1)
+
+2018-12-07 22:35:40,506 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 1/1] 14.116.141.97 () {46 vars in 819 bytes} [Fri Dec  7 22:35:40 2018] GET / => generated 16698 bytes in 264 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 22:35:40,733 DEBG 'xfz' stderr output:
+图形验证码：sze4
+
+2018-12-07 22:35:40,734 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 1/2] 14.116.141.97 () {50 vars in 991 bytes} [Fri Dec  7 22:35:40 2018] GET /account/img_captcha/ => generated 1472 bytes in 206 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-07 22:35:42,641 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 2/3] 182.150.160.130 () {44 vars in 866 bytes} [Fri Dec  7 22:35:42 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 22:36:10,327 DEBG 'xfz' stderr output:
+[pid: 2810|app: 0|req: 1/4] 182.150.160.130 () {54 vars in 1113 bytes} [Fri Dec  7 22:36:10 2018] POST /account/login/ => generated 127 bytes in 191 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+
+2018-12-07 22:36:20,232 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 3/5] 182.150.160.130 () {54 vars in 1113 bytes} [Fri Dec  7 22:36:20 2018] POST /account/login/ => generated 42 bytes in 154 msecs (HTTP/1.1 200) 6 headers in 371 bytes (1 switches on core 0)
+
+2018-12-07 22:36:20,372 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 2/6] 182.150.160.130 () {46 vars in 921 bytes} [Fri Dec  7 22:36:20 2018] GET / => generated 16943 bytes in 51 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 22:36:21,002 DEBG 'xfz' stderr output:
+图形验证码：sze4
+
+2018-12-07 22:36:21,003 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 4/7] 182.150.160.130 () {48 vars in 959 bytes} [Fri Dec  7 22:36:20 2018] GET /account/img_captcha/ => generated 1472 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-07 22:36:21,091 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 3/8] 182.150.160.130 () {46 vars in 941 bytes} [Fri Dec  7 22:36:21 2018] GET /favicon.ico => generated 7480 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 22:36:27,396 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 5/9] 182.150.160.130 () {46 vars in 937 bytes} [Fri Dec  7 22:36:27 2018] GET /news/10/ => generated 50949 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 22:36:29,122 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 4/10] 182.150.160.130 () {44 vars in 918 bytes} [Fri Dec  7 22:36:29 2018] GET /favicon.ico => generated 7480 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 22:36:29,301 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 6/11] 182.150.160.130 () {44 vars in 922 bytes} [Fri Dec  7 22:36:29 2018] GET /news/search/ => generated 10881 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 22:36:30,221 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 5/12] 182.150.160.130 () {44 vars in 922 bytes} [Fri Dec  7 22:36:30 2018] GET /favicon.ico => generated 7480 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 22:36:36,603 DEBG 'xfz' stderr output:
+Building prefix dict from the default dictionary ...
+
+2018-12-07 22:36:37,683 DEBG 'xfz' stderr output:
+Dumping model to file cache /tmp/jieba.cache
+
+2018-12-07 22:36:37,767 DEBG 'xfz' stderr output:
+Loading model cost 1.164 seconds.
+
+2018-12-07 22:36:37,768 DEBG 'xfz' stderr output:
+Prefix dict has been built succesfully.
+
+2018-12-07 22:36:37,796 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 7/13] 182.150.160.130 () {44 vars in 967 bytes} [Fri Dec  7 22:36:36 2018] GET /news/search/?q=%E4%BA%AC%E4%B8%9C => generated 14425 bytes in 1226 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 22:36:38,386 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 6/14] 182.150.160.130 () {44 vars in 943 bytes} [Fri Dec  7 22:36:38 2018] GET /favicon.ico => generated 7480 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 22:36:45,363 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 8/15] 182.150.160.130 () {44 vars in 939 bytes} [Fri Dec  7 22:36:45 2018] GET /payinfo/ => generated 11592 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 22:36:46,514 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 7/16] 182.150.160.130 () {44 vars in 918 bytes} [Fri Dec  7 22:36:46 2018] GET /favicon.ico => generated 7480 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 22:37:46,998 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 9/17] 68.183.238.242 () {44 vars in 829 bytes} [Fri Dec  7 22:37:46 2018] GET / => generated 16698 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 22:37:51,956 DEBG 'xfz' stderr output:
+图形验证码：4kr8
+
+2018-12-07 22:37:51,957 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 8/18] 68.183.238.242 () {44 vars in 831 bytes} [Fri Dec  7 22:37:51 2018] GET /account/img_captcha/ => generated 1713 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-07 22:38:12,310 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 10/19] 68.183.238.242 () {44 vars in 813 bytes} [Fri Dec  7 22:38:12 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:06:16,342 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 11/20] 182.150.160.130 () {42 vars in 912 bytes} [Fri Dec  7 23:06:16 2018] GET /news/search/?q=%E4%BA%AC%E4%B8%9C => generated 14425 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 23:06:18,033 DEBG 'xfz' stderr output:
+图形验证码：xetr
+
+2018-12-07 23:06:18,034 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 9/21] 182.150.160.130 () {44 vars in 920 bytes} [Fri Dec  7 23:06:18 2018] GET /account/img_captcha/ => generated 1574 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-07 23:06:18,695 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 12/22] 182.150.160.130 () {44 vars in 943 bytes} [Fri Dec  7 23:06:18 2018] GET /favicon.ico => generated 7480 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:06:29,798 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 10/23] 182.150.160.130 () {44 vars in 931 bytes} [Fri Dec  7 23:06:29 2018] GET /cms/ => generated 6388 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+
+2018-12-07 23:06:32,275 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 13/24] 182.150.160.130 () {44 vars in 953 bytes} [Fri Dec  7 23:06:32 2018] GET /account/logout/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 5 headers in 208 bytes (1 switches on core 0)
+
+2018-12-07 23:06:32,747 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 11/25] 182.150.160.130 () {44 vars in 923 bytes} [Fri Dec  7 23:06:32 2018] GET / => generated 16698 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 378 bytes (1 switches on core 0)
+
+2018-12-07 23:06:33,441 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 14/26] 182.150.160.130 () {44 vars in 866 bytes} [Fri Dec  7 23:06:33 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:06:50,936 DEBG 'xfz' stderr output:
+短信验证码：qxje
+
+2018-12-07 23:06:50,937 DEBG 'xfz' stderr output:
+[pid: 2810|app: 0|req: 2/27] 182.150.160.130 () {46 vars in 898 bytes} [Fri Dec  7 23:06:50 2018] GET /account/sms_captcha/?telephone=17608003690 => generated 42 bytes in 545 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+
+2018-12-07 23:07:04,161 DEBG 'xfz' stderr output:
+图形验证码：4kr8
+
+2018-12-07 23:07:04,162 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 15/28] 182.150.160.130 () {44 vars in 894 bytes} [Fri Dec  7 23:07:04 2018] GET /account/img_captcha/?random=0.6491178155411035 => generated 1713 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-07 23:07:05,945 DEBG 'xfz' stderr output:
+图形验证码：igen
+
+2018-12-07 23:07:05,946 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 12/29] 182.150.160.130 () {44 vars in 894 bytes} [Fri Dec  7 23:07:05 2018] GET /account/img_captcha/?random=0.8534655338153243 => generated 1641 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-07 23:07:18,196 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 16/30] 182.150.160.130 () {46 vars in 870 bytes} [Fri Dec  7 23:07:18 2018] GET /news/list/?category_pk=0&p=2 => generated 1552 bytes in 29 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+2018-12-07 23:07:21,357 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 13/31] 182.150.160.130 () {46 vars in 870 bytes} [Fri Dec  7 23:07:21 2018] GET /news/list/?category_pk=4&p=1 => generated 1751 bytes in 26 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+2018-12-07 23:07:23,323 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 17/32] 182.150.160.130 () {46 vars in 870 bytes} [Fri Dec  7 23:07:23 2018] GET /news/list/?category_pk=5&p=1 => generated 1313 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+2018-12-07 23:07:24,664 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 14/33] 182.150.160.130 () {46 vars in 870 bytes} [Fri Dec  7 23:07:24 2018] GET /news/list/?category_pk=6&p=1 => generated 1556 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+2018-12-07 23:07:26,286 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 18/34] 182.150.160.130 () {46 vars in 870 bytes} [Fri Dec  7 23:07:26 2018] GET /news/list/?category_pk=5&p=1 => generated 1313 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+2018-12-07 23:07:29,499 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 15/35] 182.150.160.130 () {46 vars in 870 bytes} [Fri Dec  7 23:07:29 2018] GET /news/list/?category_pk=4&p=1 => generated 1751 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+2018-12-07 23:07:46,897 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 19/36] 182.150.160.130 () {44 vars in 861 bytes} [Fri Dec  7 23:07:46 2018] GET /course/ => generated 8831 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-07 23:07:47,828 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 16/37] 182.150.160.130 () {44 vars in 873 bytes} [Fri Dec  7 23:07:47 2018] GET /favicon.ico => generated 7235 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:07:49,200 DEBG 'xfz' stderr output:
+[pid: 2806|app: 0|req: 1/38] 182.150.160.130 () {44 vars in 871 bytes} [Fri Dec  7 23:07:48 2018] GET /course/1/ => generated 27 bytes in 312 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+
+2018-12-07 23:07:49,306 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 20/39] 182.150.160.130 () {44 vars in 875 bytes} [Fri Dec  7 23:07:49 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:07:54,922 DEBG 'xfz' stderr output:
+[pid: 2811|app: 0|req: 1/40] 182.150.160.130 () {44 vars in 871 bytes} [Fri Dec  7 23:07:54 2018] GET /course/1/ => generated 27 bytes in 287 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+
+2018-12-07 23:07:55,032 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 21/41] 182.150.160.130 () {44 vars in 875 bytes} [Fri Dec  7 23:07:55 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:08:01,952 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 17/42] 182.150.160.130 () {44 vars in 853 bytes} [Fri Dec  7 23:08:01 2018] GET / => generated 16698 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 23:08:02,846 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 22/43] 182.150.160.130 () {44 vars in 866 bytes} [Fri Dec  7 23:08:02 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:08:04,213 DEBG 'xfz' stderr output:
+[pid: 2810|app: 0|req: 3/44] 182.150.160.130 () {44 vars in 860 bytes} [Fri Dec  7 23:08:04 2018] GET /news/9/ => generated 31698 bytes in 45 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 23:08:05,907 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 23/45] 182.150.160.130 () {44 vars in 873 bytes} [Fri Dec  7 23:08:05 2018] GET /favicon.ico => generated 7235 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:08:38,477 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 24/46] 182.150.160.130 () {54 vars in 1130 bytes} [Fri Dec  7 23:08:38 2018] POST /news/public_comment/ => generated 72 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+
+2018-12-07 23:08:38,607 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 18/47] 182.150.160.130 () {54 vars in 1120 bytes} [Fri Dec  7 23:08:38 2018] POST /account/login/ => generated 42 bytes in 128 msecs (HTTP/1.1 200) 6 headers in 371 bytes (1 switches on core 0)
+
+2018-12-07 23:08:38,693 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 25/48] 182.150.160.130 () {46 vars in 942 bytes} [Fri Dec  7 23:08:38 2018] GET /news/9/ => generated 31900 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 23:08:39,294 DEBG 'xfz' stderr output:
+图形验证码：12zb
+
+2018-12-07 23:08:39,295 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 19/49] 182.150.160.130 () {46 vars in 925 bytes} [Fri Dec  7 23:08:39 2018] GET /account/img_captcha/ => generated 1489 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-07 23:08:39,698 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 26/50] 182.150.160.130 () {46 vars in 948 bytes} [Fri Dec  7 23:08:39 2018] GET /favicon.ico => generated 7480 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:08:41,446 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 20/51] 182.150.160.130 () {46 vars in 936 bytes} [Fri Dec  7 23:08:41 2018] GET /cms/ => generated 6388 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+
+2018-12-07 23:08:45,461 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 27/52] 182.150.160.130 () {44 vars in 914 bytes} [Fri Dec  7 23:08:45 2018] GET /favicon.ico => generated 7480 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:08:52,282 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 21/53] 182.150.160.130 () {44 vars in 918 bytes} [Fri Dec  7 23:08:52 2018] GET /cms/banners/ => generated 9616 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+
+2018-12-07 23:08:56,087 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 28/54] 182.150.160.130 () {44 vars in 922 bytes} [Fri Dec  7 23:08:56 2018] GET /favicon.ico => generated 7480 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:08:56,131 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 22/55] 182.150.160.130 () {46 vars in 903 bytes} [Fri Dec  7 23:08:56 2018] GET /cms/banner_list/ => generated 810 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+
+2018-12-07 23:09:14,112 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 29/56] 182.150.160.130 () {44 vars in 932 bytes} [Fri Dec  7 23:09:14 2018] GET /cms/pub_course/ => generated 9522 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+
+2018-12-07 23:09:16,663 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 23/57] 182.150.160.130 () {44 vars in 925 bytes} [Fri Dec  7 23:09:16 2018] GET /favicon.ico => generated 7480 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:09:16,783 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 30/58] 182.150.160.130 () {44 vars in 1006 bytes} [Fri Dec  7 23:09:16 2018] GET /ueditor/upload/?action=config&&noCache=1544195357582 => generated 2719 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+
+2018-12-07 23:09:21,060 DEBG 'xfz' stderr output:
+[pid: 2808|app: 0|req: 1/59] 182.150.160.130 () {44 vars in 933 bytes} [Fri Dec  7 23:09:20 2018] GET /cms/news_list/ => generated 12711 bytes in 255 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+
+2018-12-07 23:09:21,699 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 31/60] 182.150.160.130 () {44 vars in 924 bytes} [Fri Dec  7 23:09:21 2018] GET /favicon.ico => generated 7480 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:09:21,945 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 24/61] 182.150.160.130 () {42 vars in 946 bytes} [Fri Dec  7 23:09:21 2018] GET /cms/news_list/?p=2&start=&end=&title=&category_pk= => generated 12805 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+
+2018-12-07 23:09:22,342 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 32/62] 182.150.160.130 () {44 vars in 960 bytes} [Fri Dec  7 23:09:22 2018] GET /favicon.ico => generated 7480 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:09:29,930 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 25/63] 182.150.160.130 () {44 vars in 926 bytes} [Fri Dec  7 23:09:29 2018] GET /cms/staffs/ => generated 9745 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+
+2018-12-07 23:09:30,314 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 33/64] 182.150.160.130 () {44 vars in 921 bytes} [Fri Dec  7 23:09:30 2018] GET /favicon.ico => generated 7480 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:20:28,601 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 34/65] 86.47.80.148 () {36 vars in 613 bytes} [Fri Dec  7 23:20:28 2018] GET / => generated 16698 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 23:20:35,281 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 26/66] 86.47.80.148 () {36 vars in 625 bytes} [Fri Dec  7 23:20:35 2018] GET /course => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 0)
+
+2018-12-07 23:20:35,735 DEBG 'xfz' stderr output:
+[pid: 2810|app: 0|req: 4/67] 86.47.80.148 () {36 vars in 627 bytes} [Fri Dec  7 23:20:35 2018] GET /course/ => generated 8831 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-07 23:20:40,693 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 35/68] 86.47.80.148 () {36 vars in 625 bytes} [Fri Dec  7 23:20:40 2018] GET /news/9 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 0)
+
+2018-12-07 23:20:42,420 DEBG 'xfz' stderr output:
+[pid: 2804|app: 0|req: 1/69] 86.47.80.148 () {36 vars in 627 bytes} [Fri Dec  7 23:20:42 2018] GET /news/9/ => generated 31698 bytes in 246 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 23:20:54,283 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 36/70] 86.47.80.148 () {36 vars in 653 bytes} [Fri Dec  7 23:20:54 2018] GET /news/%7b%7bnews.pk%7d%7d => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-07 23:21:05,273 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 27/71] 86.47.80.148 () {36 vars in 635 bytes} [Fri Dec  7 23:21:05 2018] GET /news/search => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 118 bytes (1 switches on core 0)
+
+2018-12-07 23:21:05,721 DEBG 'xfz' stderr output:
+[pid: 2810|app: 0|req: 5/72] 86.47.80.148 () {36 vars in 637 bytes} [Fri Dec  7 23:21:05 2018] GET /news/search/ => generated 10636 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-07 23:21:24,284 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 37/73] 86.47.80.148 () {36 vars in 627 bytes} [Fri Dec  7 23:21:24 2018] GET /payinfo => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 114 bytes (1 switches on core 0)
+
+2018-12-07 23:21:24,746 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 28/74] 86.47.80.148 () {36 vars in 629 bytes} [Fri Dec  7 23:21:24 2018] GET /payinfo/ => generated 11347 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:10:11,854 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 38/75] 171.221.128.19 () {40 vars in 654 bytes} [Sat Dec  8 08:10:11 2018] GET /robots.txt => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-08 08:10:11,868 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 29/76] 171.221.128.19 () {42 vars in 751 bytes} [Sat Dec  8 08:10:11 2018] GET / => generated 16698 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:10:12,350 DEBG 'xfz' stderr output:
+图形验证码：xetr
+
+2018-12-08 08:10:12,351 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 39/77] 171.221.128.19 () {44 vars in 842 bytes} [Sat Dec  8 08:10:12 2018] GET /account/img_captcha/ => generated 1574 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:10:13,445 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 30/78] 171.221.128.19 () {44 vars in 824 bytes} [Sat Dec  8 08:10:13 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-08 08:12:20,538 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 40/79] 171.221.128.19 () {46 vars in 897 bytes} [Sat Dec  8 08:12:20 2018] GET /course/ => generated 8831 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 08:12:20,678 DEBG 'xfz' stderr output:
+图形验证码：dqu4
+
+2018-12-08 08:12:20,679 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 31/80] 171.221.128.19 () {44 vars in 849 bytes} [Sat Dec  8 08:12:20 2018] GET /account/img_captcha/ => generated 1761 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:12:21,706 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 41/81] 171.221.128.19 () {46 vars in 908 bytes} [Sat Dec  8 08:12:21 2018] GET /course/1/ => generated 27 bytes in 62 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+
+2018-12-08 08:12:41,633 DEBG 'xfz' stderr output:
+图形验证码：8pa9
+
+2018-12-08 08:12:41,634 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 32/82] 171.221.128.19 () {44 vars in 902 bytes} [Sat Dec  8 08:12:41 2018] GET /account/img_captcha/?random=0.02485446225511989 => generated 1543 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:17:37,567 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 42/83] 171.221.128.19 () {40 vars in 654 bytes} [Sat Dec  8 08:17:37 2018] GET /robots.txt => generated 7235 bytes in 7 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-08 08:17:37,571 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 33/84] 171.221.128.19 () {46 vars in 906 bytes} [Sat Dec  8 08:17:37 2018] GET /payinfo/ => generated 11347 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:17:37,947 DEBG 'xfz' stderr output:
+图形验证码：s9nz
+
+2018-12-08 08:17:37,947 DEBG 'xfz' stderr output:
+[pid: 2810|app: 0|req: 6/85] 171.221.128.19 () {44 vars in 850 bytes} [Sat Dec  8 08:17:37 2018] GET /account/img_captcha/ => generated 1509 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:17:38,728 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 43/86] 171.221.128.19 () {46 vars in 960 bytes} [Sat Dec  8 08:17:38 2018] GET /payinfo/payinfo_order/?payinfo_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 137 bytes (1 switches on core 0)
+
+2018-12-08 08:17:39,015 DEBG 'xfz' stderr output:
+[pid: 2805|app: 0|req: 1/87] 171.221.128.19 () {46 vars in 891 bytes} [Sat Dec  8 08:17:38 2018] GET / => generated 16698 bytes in 242 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:17:39,236 DEBG 'xfz' stderr output:
+图形验证码：igen
+
+2018-12-08 08:17:39,237 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 44/88] 171.221.128.19 () {44 vars in 842 bytes} [Sat Dec  8 08:17:39 2018] GET /account/img_captcha/ => generated 1641 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:17:40,790 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 34/89] 171.221.128.19 () {46 vars in 899 bytes} [Sat Dec  8 08:17:40 2018] GET /payinfo/ => generated 11347 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:17:40,871 DEBG 'xfz' stderr output:
+图形验证码：ain4
+
+2018-12-08 08:17:40,872 DEBG 'xfz' stderr output:
+[pid: 2810|app: 0|req: 7/90] 171.221.128.19 () {44 vars in 850 bytes} [Sat Dec  8 08:17:40 2018] GET /account/img_captcha/ => generated 1622 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:17:41,861 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 45/91] 171.221.128.19 () {46 vars in 960 bytes} [Sat Dec  8 08:17:41 2018] GET /payinfo/payinfo_order/?payinfo_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 137 bytes (1 switches on core 0)
+
+2018-12-08 08:17:41,932 DEBG 'xfz' stderr output:
+[pid: 2811|app: 0|req: 2/92] 171.221.128.19 () {46 vars in 891 bytes} [Sat Dec  8 08:17:41 2018] GET / => generated 16698 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:17:42,142 DEBG 'xfz' stderr output:
+图形验证码：12zb
+
+2018-12-08 08:17:42,143 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 46/93] 171.221.128.19 () {44 vars in 842 bytes} [Sat Dec  8 08:17:42 2018] GET /account/img_captcha/ => generated 1489 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:17:56,142 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 35/94] 171.221.128.19 () {54 vars in 1103 bytes} [Sat Dec  8 08:17:56 2018] POST /account/login/ => generated 42 bytes in 129 msecs (HTTP/1.1 200) 6 headers in 427 bytes (1 switches on core 0)
+
+2018-12-08 08:17:56,211 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 47/95] 171.221.128.19 () {48 vars in 958 bytes} [Sat Dec  8 08:17:56 2018] GET / => generated 16943 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:17:56,293 DEBG 'xfz' stderr output:
+图形验证码：erqn
+
+2018-12-08 08:17:56,294 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 36/96] 171.221.128.19 () {44 vars in 886 bytes} [Sat Dec  8 08:17:56 2018] GET /account/img_captcha/ => generated 1667 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:00,881 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 48/97] 171.221.128.19 () {46 vars in 941 bytes} [Sat Dec  8 08:18:00 2018] GET /course/ => generated 9076 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 08:18:00,955 DEBG 'xfz' stderr output:
+图形验证码：ae2l
+
+2018-12-08 08:18:00,956 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 37/98] 171.221.128.19 () {44 vars in 893 bytes} [Sat Dec  8 08:18:00 2018] GET /account/img_captcha/ => generated 1351 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:01,777 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 49/99] 171.221.128.19 () {46 vars in 952 bytes} [Sat Dec  8 08:18:01 2018] GET /course/1/ => generated 14962 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:18:01,964 DEBG 'xfz' stderr output:
+图形验证码：7shg
+
+2018-12-08 08:18:01,965 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 38/100] 171.221.128.19 () {44 vars in 895 bytes} [Sat Dec  8 08:18:01 2018] GET /account/img_captcha/ => generated 1571 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:09,439 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 50/101] 171.221.128.19 () {46 vars in 980 bytes} [Sat Dec  8 08:18:09 2018] GET /course/course_order/1/ => generated 10186 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:18:09,514 DEBG 'xfz' stderr output:
+图形验证码：8foa
+
+2018-12-08 08:18:09,515 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 39/102] 171.221.128.19 () {44 vars in 908 bytes} [Sat Dec  8 08:18:09 2018] GET /account/img_captcha/ => generated 1574 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:12,371 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 51/103] 171.221.128.19 () {46 vars in 965 bytes} [Sat Dec  8 08:18:12 2018] GET /payinfo/ => generated 11592 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:18:12,581 DEBG 'xfz' stderr output:
+图形验证码：1imy
+
+2018-12-08 08:18:12,582 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 40/104] 171.221.128.19 () {44 vars in 894 bytes} [Sat Dec  8 08:18:12 2018] GET /account/img_captcha/ => generated 1641 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:13,395 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 52/105] 171.221.128.19 () {46 vars in 1004 bytes} [Sat Dec  8 08:18:13 2018] GET /payinfo/payinfo_order/?payinfo_id=1 => generated 10077 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:18:13,477 DEBG 'xfz' stderr output:
+图形验证码：r7hi
+
+2018-12-08 08:18:13,478 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 41/106] 171.221.128.19 () {44 vars in 921 bytes} [Sat Dec  8 08:18:13 2018] GET /account/img_captcha/ => generated 1327 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:25,391 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 53/107] 171.221.128.19 () {46 vars in 976 bytes} [Sat Dec  8 08:18:25 2018] GET /course/ => generated 9076 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 08:18:25,464 DEBG 'xfz' stderr output:
+图形验证码：abg9
+
+2018-12-08 08:18:25,465 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 42/108] 171.221.128.19 () {44 vars in 893 bytes} [Sat Dec  8 08:18:25 2018] GET /account/img_captcha/ => generated 1776 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:35,213 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 54/109] 171.221.128.19 () {46 vars in 952 bytes} [Sat Dec  8 08:18:35 2018] GET /course/1/ => generated 14962 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:18:35,371 DEBG 'xfz' stderr output:
+图形验证码：hlnk
+
+2018-12-08 08:18:35,372 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 43/110] 171.221.128.19 () {44 vars in 895 bytes} [Sat Dec  8 08:18:35 2018] GET /account/img_captcha/ => generated 1659 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:18:41,204 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 55/111] 171.221.128.19 () {46 vars in 936 bytes} [Sat Dec  8 08:18:41 2018] GET / => generated 16943 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:18:41,432 DEBG 'xfz' stderr output:
+图形验证码：pir4
+
+2018-12-08 08:18:41,433 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 44/112] 171.221.128.19 () {44 vars in 886 bytes} [Sat Dec  8 08:18:41 2018] GET /account/img_captcha/ => generated 1502 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:21:19,682 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 56/113] 171.221.128.19 () {48 vars in 967 bytes} [Sat Dec  8 08:21:19 2018] GET / => generated 16943 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:21:19,761 DEBG 'xfz' stderr output:
+图形验证码：olhv
+
+2018-12-08 08:21:19,762 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 45/114] 171.221.128.19 () {44 vars in 886 bytes} [Sat Dec  8 08:21:19 2018] GET /account/img_captcha/ => generated 1459 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:21:22,197 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 57/115] 171.221.128.19 () {46 vars in 943 bytes} [Sat Dec  8 08:21:22 2018] GET /news/10/ => generated 50949 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:21:22,451 DEBG 'xfz' stderr output:
+图形验证码：slen
+
+2018-12-08 08:21:22,451 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 46/116] 171.221.128.19 () {44 vars in 894 bytes} [Sat Dec  8 08:21:22 2018] GET /account/img_captcha/ => generated 1468 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:42:36,794 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 58/117] 171.221.128.19 () {44 vars in 829 bytes} [Sat Dec  8 08:42:36 2018] GET / => generated 16698 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:42:37,288 DEBG 'xfz' stderr output:
+图形验证码：8lr6
+
+2018-12-08 08:42:37,289 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 47/118] 171.221.128.19 () {44 vars in 831 bytes} [Sat Dec  8 08:42:37 2018] GET /account/img_captcha/ => generated 1469 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:42:37,967 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 59/119] 171.221.128.19 () {44 vars in 813 bytes} [Sat Dec  8 08:42:37 2018] GET /favicon.ico => generated 7235 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-08 08:50:13,198 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 60/120] 171.221.128.19 () {44 vars in 829 bytes} [Sat Dec  8 08:50:13 2018] GET / => generated 16698 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:50:13,654 DEBG 'xfz' stderr output:
+图形验证码：njjs
+
+2018-12-08 08:50:13,654 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 48/121] 171.221.128.19 () {44 vars in 831 bytes} [Sat Dec  8 08:50:13 2018] GET /account/img_captcha/ => generated 1499 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:50:21,189 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 61/122] 171.221.128.19 () {54 vars in 1092 bytes} [Sat Dec  8 08:50:21 2018] POST /account/login/ => generated 42 bytes in 121 msecs (HTTP/1.1 200) 6 headers in 371 bytes (1 switches on core 0)
+
+2018-12-08 08:50:21,259 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 49/123] 171.221.128.19 () {48 vars in 947 bytes} [Sat Dec  8 08:50:21 2018] GET / => generated 16943 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:50:21,410 DEBG 'xfz' stderr output:
+图形验证码：dqu4
+
+2018-12-08 08:50:21,411 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 62/124] 171.221.128.19 () {44 vars in 875 bytes} [Sat Dec  8 08:50:21 2018] GET /account/img_captcha/ => generated 1761 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:50:22,923 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 50/125] 171.221.128.19 () {46 vars in 930 bytes} [Sat Dec  8 08:50:22 2018] GET /course/ => generated 9076 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 08:50:23,077 DEBG 'xfz' stderr output:
+图形验证码：8pa9
+
+2018-12-08 08:50:23,078 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 63/126] 171.221.128.19 () {44 vars in 882 bytes} [Sat Dec  8 08:50:23 2018] GET /account/img_captcha/ => generated 1543 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:50:24,575 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 51/127] 171.221.128.19 () {46 vars in 941 bytes} [Sat Dec  8 08:50:24 2018] GET /course/1/ => generated 14962 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 08:50:24,856 DEBG 'xfz' stderr output:
+图形验证码：erqn
+
+2018-12-08 08:50:24,856 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 64/128] 171.221.128.19 () {44 vars in 884 bytes} [Sat Dec  8 08:50:24 2018] GET /account/img_captcha/ => generated 1667 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 08:52:45,857 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 65/129] 171.221.128.19 () {46 vars in 939 bytes} [Sat Dec  8 08:52:45 2018] GET /course/ => generated 9076 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 08:52:45,961 DEBG 'xfz' stderr output:
+图形验证码：xjuf
+
+2018-12-08 08:52:45,962 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 52/130] 171.221.128.19 () {44 vars in 882 bytes} [Sat Dec  8 08:52:45 2018] GET /account/img_captcha/ => generated 1464 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:00:46,228 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 66/131] 171.221.128.19 () {46 vars in 953 bytes} [Sat Dec  8 09:00:46 2018] GET /account/logout/ => generated 0 bytes in 11 msecs (HTTP/1.1 302) 5 headers in 208 bytes (1 switches on core 0)
+
+2018-12-08 09:00:46,305 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 53/132] 171.221.128.19 () {46 vars in 879 bytes} [Sat Dec  8 09:00:46 2018] GET / => generated 16698 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:00:46,737 DEBG 'xfz' stderr output:
+图形验证码：ae2l
+
+2018-12-08 09:00:46,737 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 67/133] 171.221.128.19 () {44 vars in 831 bytes} [Sat Dec  8 09:00:46 2018] GET /account/img_captcha/ => generated 1351 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:00:48,916 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 54/134] 171.221.128.19 () {46 vars in 886 bytes} [Sat Dec  8 09:00:48 2018] GET /course/ => generated 8831 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 09:00:49,023 DEBG 'xfz' stderr output:
+图形验证码：7shg
+
+2018-12-08 09:00:49,024 DEBG 'xfz' stderr output:
+[pid: 2813|app: 0|req: 68/135] 171.221.128.19 () {44 vars in 838 bytes} [Sat Dec  8 09:00:49 2018] GET /account/img_captcha/ => generated 1571 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:00:50,038 DEBG 'xfz' stderr output:
+[pid: 2812|app: 0|req: 55/136] 171.221.128.19 () {46 vars in 897 bytes} [Sat Dec  8 09:00:49 2018] GET /course/1/ => generated 27 bytes in 72 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+
+2018-12-08 09:01:27,567 DEBG killing xfz (pid 2802) with signal SIGTERM
+2018-12-08 09:01:27,610 INFO waiting for xfz to stop
+2018-12-08 09:01:27,610 WARN killing 'xfz' (2802) with SIGKILL
+2018-12-08 09:01:27,610 DEBG killing xfz (pid 2802) with signal SIGKILL
+2018-12-08 09:01:27,611 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139979213700632 for <Subprocess at 139979216351104 with name xfz in state STOPPING> (stdout)>
+2018-12-08 09:01:27,612 DEBG 'xfz' stderr output:
+...brutally killing workers...
+
+2018-12-08 09:01:27,612 INFO stopped: xfz (terminated by SIGKILL)
+2018-12-08 09:01:27,612 DEBG received SIGCLD indicating a child quit
+2018-12-08 09:01:27,653 INFO spawned: 'xfz' with pid 3475
+2018-12-08 09:01:27,653 INFO success: xfz entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-12-08 09:01:27,694 DEBG 'xfz' stderr output:
+[uWSGI] getting INI configuration from uwsgi.ini
+
+2018-12-08 09:01:27,701 DEBG 'xfz' stderr output:
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  8 09:01:27 2018] ***
+
+2018-12-08 09:01:27,701 DEBG 'xfz' stderr output:
+compiled with version: 5.4.0 20160609 on 07 December 2018 09:29:52
+
+2018-12-08 09:01:27,701 DEBG 'xfz' stderr output:
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+
+2018-12-08 09:01:27,701 DEBG 'xfz' stderr output:
+nodename: ubuntu
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+machine: x86_64
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+clock source: unix
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+detected number of CPU cores: 1
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+current working directory: /srv/xfz
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+detected binary path: /usr/local/bin/uwsgi
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+!!! no internal routing support, rebuild with pcre support !!!
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+chdir() to /srv/xfz
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+your processes number limit is 7856
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+your memory page size is 4096 bytes
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+detected max file descriptor number: 65535
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+lock engine: pthread robust mutexes
+
+2018-12-08 09:01:27,702 DEBG 'xfz' stderr output:
+thunder lock: disabled (you can enable it with --thunder-lock)
+
+2018-12-08 09:01:27,703 DEBG 'xfz' stderr output:
+uwsgi socket 0 bound to UNIX address /srv/xfz/xfz.sock fd 3
+
+2018-12-08 09:01:27,704 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-08 09:01:27,708 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-08 09:01:27,708 DEBG 'xfz' stderr output:
+Python version: 3.6.7 (default, Oct 25 2018, 09:16:13)  [GCC 5.4.0 20160609]
+
+2018-12-08 09:01:27,712 DEBG 'xfz' stderr output:
+Set PythonHome to /root/.virtualenvs/xfzvir
+
+2018-12-08 09:01:27,909 DEBG 'xfz' stderr output:
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+
+2018-12-08 09:01:27,909 DEBG 'xfz' stderr output:
+Python main interpreter initialized at 0x2019810
+
+2018-12-08 09:01:27,909 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-08 09:01:27,909 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-08 09:01:27,909 DEBG 'xfz' stderr output:
+your server socket listen backlog is limited to 100 connections
+
+2018-12-08 09:01:27,909 DEBG 'xfz' stderr output:
+your mercy for graceful operations on workers is 60 seconds
+
+2018-12-08 09:01:27,920 DEBG 'xfz' stderr output:
+mapped 801944 bytes (783 KB) for 10 cores
+
+2018-12-08 09:01:27,921 DEBG 'xfz' stderr output:
+*** Operational MODE: preforking ***
+
+2018-12-08 09:01:30,009 DEBG 'xfz' stderr output:
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x2019810 pid: 3475 (default app)
+
+2018-12-08 09:01:30,009 DEBG 'xfz' stderr output:
+uWSGI running as root, you can use --uid/--gid/--chroot options
+
+2018-12-08 09:01:30,009 DEBG 'xfz' stderr output:
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+
+2018-12-08 09:01:30,009 DEBG 'xfz' stderr output:
+*** uWSGI is running in multiple interpreter mode ***
+
+2018-12-08 09:01:30,009 DEBG 'xfz' stderr output:
+spawned uWSGI master process (pid: 3475)
+
+2018-12-08 09:01:30,010 DEBG 'xfz' stderr output:
+spawned uWSGI worker 1 (pid: 3477, cores: 1)
+
+2018-12-08 09:01:30,011 DEBG 'xfz' stderr output:
+spawned uWSGI worker 2 (pid: 3478, cores: 1)
+
+2018-12-08 09:01:30,011 DEBG 'xfz' stderr output:
+spawned uWSGI worker 3 (pid: 3479, cores: 1)
+
+2018-12-08 09:01:30,012 DEBG 'xfz' stderr output:
+spawned uWSGI worker 4 (pid: 3480, cores: 1)
+
+2018-12-08 09:01:30,013 DEBG 'xfz' stderr output:
+spawned uWSGI worker 5 (pid: 3481, cores: 1)
+
+2018-12-08 09:01:30,015 DEBG 'xfz' stderr output:
+spawned uWSGI worker 6 (pid: 3482, cores: 1)
+
+2018-12-08 09:01:30,017 DEBG 'xfz' stderr output:
+spawned uWSGI worker 7 (pid: 3483, cores: 1)
+
+2018-12-08 09:01:30,018 DEBG 'xfz' stderr output:
+spawned uWSGI worker 8 (pid: 3484, cores: 1)
+
+2018-12-08 09:01:30,020 DEBG 'xfz' stderr output:
+spawned uWSGI worker 9 (pid: 3485, cores: 1)
+
+2018-12-08 09:01:30,021 DEBG 'xfz' stderr output:
+spawned uWSGI worker 10 (pid: 3486, cores: 1)
+
+2018-12-08 09:01:34,339 DEBG 'xfz' stderr output:
+[pid: 3479|app: 0|req: 1/1] 171.221.128.19 () {48 vars in 928 bytes} [Sat Dec  8 09:01:34 2018] GET /course/1/ => generated 14717 bytes in 227 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:01:34,885 DEBG 'xfz' stderr output:
+图形验证码：10uv
+
+2018-12-08 09:01:34,886 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 1/2] 171.221.128.19 () {44 vars in 840 bytes} [Sat Dec  8 09:01:34 2018] GET /account/img_captcha/ => generated 1400 bytes in 219 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:01:39,582 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 1/3] 171.221.128.19 () {46 vars in 895 bytes} [Sat Dec  8 09:01:39 2018] GET /course/ => generated 8831 bytes in 225 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 09:01:39,677 DEBG 'xfz' stderr output:
+图形验证码：bapv
+
+2018-12-08 09:01:39,678 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 2/4] 171.221.128.19 () {44 vars in 838 bytes} [Sat Dec  8 09:01:39 2018] GET /account/img_captcha/ => generated 1488 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:01:41,127 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 2/5] 171.221.128.19 () {46 vars in 897 bytes} [Sat Dec  8 09:01:41 2018] GET /course/1/ => generated 14717 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:01:41,360 DEBG 'xfz' stderr output:
+图形验证码：ldyr
+
+2018-12-08 09:01:41,361 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 3/6] 171.221.128.19 () {44 vars in 840 bytes} [Sat Dec  8 09:01:41 2018] GET /account/img_captcha/ => generated 1313 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:01:44,363 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 3/7] 171.221.128.19 () {46 vars in 925 bytes} [Sat Dec  8 09:01:44 2018] GET /course/course_order/1/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 137 bytes (1 switches on core 0)
+
+2018-12-08 09:01:44,642 DEBG 'xfz' stderr output:
+[pid: 3483|app: 0|req: 1/8] 171.221.128.19 () {46 vars in 881 bytes} [Sat Dec  8 09:01:44 2018] GET / => generated 16698 bytes in 223 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:01:44,898 DEBG 'xfz' stderr output:
+图形验证码：hqt2
+
+2018-12-08 09:01:44,899 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 4/9] 171.221.128.19 () {44 vars in 831 bytes} [Sat Dec  8 09:01:44 2018] GET /account/img_captcha/ => generated 1539 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:35:31,507 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 4/10] 171.221.128.19 () {40 vars in 643 bytes} [Sat Dec  8 09:35:31 2018] GET /robots.txt => generated 7235 bytes in 6 msecs (HTTP/1.1 404) 5 headers in 299 bytes (1 switches on core 0)
+
+2018-12-08 09:35:31,538 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 5/11] 171.221.128.19 () {46 vars in 886 bytes} [Sat Dec  8 09:35:31 2018] GET /course/ => generated 8831 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+
+2018-12-08 09:35:31,687 DEBG 'xfz' stderr output:
+图形验证码：yzai
+
+2018-12-08 09:35:31,688 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 5/12] 171.221.128.19 () {44 vars in 838 bytes} [Sat Dec  8 09:35:31 2018] GET /account/img_captcha/ => generated 1547 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:35:33,535 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 6/13] 171.221.128.19 () {46 vars in 895 bytes} [Sat Dec  8 09:35:33 2018] GET /payinfo/ => generated 11347 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:35:33,778 DEBG 'xfz' stderr output:
+图形验证码：sy4k
+
+2018-12-08 09:35:33,779 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 6/14] 171.221.128.19 () {44 vars in 839 bytes} [Sat Dec  8 09:35:33 2018] GET /account/img_captcha/ => generated 1613 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:35:36,472 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 7/15] 171.221.128.19 () {46 vars in 904 bytes} [Sat Dec  8 09:35:36 2018] GET /news/search/ => generated 10636 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:35:36,570 DEBG 'xfz' stderr output:
+图形验证码：rwkg
+
+2018-12-08 09:35:36,571 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 7/16] 171.221.128.19 () {44 vars in 843 bytes} [Sat Dec  8 09:35:36 2018] GET /account/img_captcha/ => generated 1825 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:35:42,850 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 8/17] 171.221.128.19 () {46 vars in 913 bytes} [Sat Dec  8 09:35:42 2018] GET /news/search/?q= => generated 10636 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:35:43,154 DEBG 'xfz' stderr output:
+图形验证码：mkrw
+
+2018-12-08 09:35:43,155 DEBG 'xfz' stderr output:
+[pid: 3484|app: 0|req: 1/18] 171.221.128.19 () {44 vars in 846 bytes} [Sat Dec  8 09:35:42 2018] GET /account/img_captcha/ => generated 2145 bytes in 210 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 09:35:47,525 DEBG 'xfz' stderr output:
+Building prefix dict from the default dictionary ...
+
+2018-12-08 09:35:47,525 DEBG 'xfz' stderr output:
+Loading model from cache /tmp/jieba.cache
+
+2018-12-08 09:35:48,408 DEBG 'xfz' stderr output:
+Loading model cost 0.882 seconds.
+
+2018-12-08 09:35:48,408 DEBG 'xfz' stderr output:
+Prefix dict has been built succesfully.
+
+2018-12-08 09:35:48,429 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 9/19] 171.221.128.19 () {46 vars in 952 bytes} [Sat Dec  8 09:35:47 2018] GET /news/search/?q=%E4%BA%AC%E4%B8%9C => generated 14180 bytes in 924 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 09:35:48,607 DEBG 'xfz' stderr output:
+图形验证码：qju0
+
+2018-12-08 09:35:48,608 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 8/20] 171.221.128.19 () {44 vars in 864 bytes} [Sat Dec  8 09:35:48 2018] GET /account/img_captcha/ => generated 1886 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
+2018-12-08 10:14:52,806 DEBG 'xfz' stderr output:
+[pid: 3486|app: 0|req: 10/21] 171.221.128.19 () {46 vars in 853 bytes} [Sat Dec  8 10:14:52 2018] GET / => generated 16698 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+
+2018-12-08 10:14:54,086 DEBG 'xfz' stderr output:
+图形验证码：srld
+
+2018-12-08 10:14:54,087 DEBG 'xfz' stderr output:
+[pid: 3485|app: 0|req: 9/22] 171.221.128.19 () {44 vars in 831 bytes} [Sat Dec  8 10:14:54 2018] GET /account/img_captcha/ => generated 1661 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (2 switches on core 0)
+
